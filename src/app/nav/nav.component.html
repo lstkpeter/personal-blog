@@ -1,0 +1,19 @@
+<div id="navigator">
+  <div class="navigator_bg">
+  </div>
+  <div class="navigator">
+      <ul>
+          <li id="btnContents">
+              <a routerLink="/login" id="Login">
+                <span>登陆</span>
+              </a>
+              <a routerLink="/login"><span (click)="logout()" id="Logout">注销</span></a>
+          </li>
+          <li id="btnView">
+              <a href="./index.html">
+                <span onclick=""><img [src]="ICON">目录视图</span>
+              </a>
+          </li>
+      </ul>
+  </div>
+</div>

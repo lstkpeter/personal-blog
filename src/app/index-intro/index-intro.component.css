@@ -1,0 +1,76 @@
+.panel_head,
+.blog-ass-articl dt {
+  font-weight: bold;
+}
+.panel{
+  background: #f5f5f5;
+}
+.panel_head {
+    background: #f5f5f5;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 11px;
+    color: #333;
+  }
+.panel_body {
+    background: #ffffff;
+    padding: 15px 16px 17px;
+    word-break: break-all;
+  }
+.profile {
+    background: #ffffff;
+    padding-top: 29px;
+    padding-bottom: 5px;
+  }
+.profile #blog_userface {
+    text-align: center;
+  }
+.profile #blog_userface a {
+    display: inline-block;
+  }
+.profile #blog_userface .user_name {
+    color: #666;
+    font: 16px/20px 'microsoft yahei';
+    text-decoration: none;
+  }
+.profile #blog_userface span {
+    display: block;
+    margin: 15px 0;
+  }
+.profile #blog_medal {
+    margin-bottom: 10px;
+  }
+
+.profile #blog_rank {
+    padding: 4px;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 13px;
+  }
+.profile #blog_rank li {
+    margin-bottom: 11px;
+  }
+.profile #blog_statistics:after {
+    content: '.';
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+  }
+.profile #blog_statistics li {
+    float: left;
+    width: 114px;
+    color: #333;
+    margin-bottom: 12px;
+  }
+.profile #blog_statistics li span {
+    color: #666;
+  }
+
+  /*
+  .profile #blog_medal .ico_expert {
+    margin: 0 auto 10px auto;
+  }
+  .profile #blog_medal a {
+    margin-right: 10px;
+  }
+  */

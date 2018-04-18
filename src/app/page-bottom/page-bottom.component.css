@@ -1,0 +1,51 @@
+.pub_footerall {
+    border-top-color: #a7b9c4;
+  }
+.pub_fo {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    overflow: hidden;
+    border-top: 1px solid #f0f0f0;
+    position: relative;
+    margin-top: -150px;
+    height: 50px;
+    clear:both;
+}
+.pub_footer_new {
+    width: 1170px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+.pub_footer_new dl, .pub_footer_new dt, .pub_footer_new dd {
+    margin: 0px;
+    padding: 0px;
+}
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.pub_footer_new .foot_sub_menu {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.pub_footer_new dl, .pub_footer_new dt, .pub_footer_new dd {
+    margin: 0px;
+    padding: 0px;
+}
+dd {
+    display: block;
+    -webkit-margin-start: 40px;
+}
+.pub_footer_new .foot_contact {
+    font-family: 'microsoft yahei';
+    font-size: 12px;
+    overflow: hidden;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>登陆</title>
+<meta charset="UTF-8" />
+</head>
+
+<body>
+<form #formRef="ngForm" (ngSubmit)="onSubmit(formRef.value)" class="box login">
+	<fieldset class="boxBody" ngModelGroup="login">
+	  <label>用户名</label>
+	  <input name="username" type="text" [(ngModel)]="username" #usernameRef="ngModel" required minlength="3" tabindex="1" placeholder="">
+    <label><!--<a href="#" class="rLink" tabindex="5">忘记密码?</a>-->密码</label>
+    <input name="password" type="password" [(ngModel)]="password" #passwordRef="ngModel" required tabindex="2">
+	</fieldset>
+	<footer >
+	  <!--<label><input type="checkbox" tabindex="3">Keep me logged in</label>-->
+	  <input routerLink="/admin" type="submit" class="btnLogin" value="Login" tabindex="4">
+	</footer> 
+</form>
+</body>
+</html>

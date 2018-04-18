@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: url("../background.jpg");
+    /*background-repeat:no-repeat;*/
+    width:96%;
+    min-width: 980px;
+    max-width: 1256px;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-bottom: 40px;
+  }
+#header {
+    background: url("../background-title.png") no-repeat center -201px;
+    height: 145px;
+    color: #fff;
+  }
+  #header h2 {
+    padding: 32px 0 0 0;
+    margin: 0;
+  }
+  #header h2 a {
+    text-decoration: none;
+    color: #454545;
+    font: bold 24px/40px 'microsoft yahei';
+  }
+  #header h3 {
+    padding: 0 0 0 0;
+    font: 14px/20px 'microsoft yahei';
+    max-height: 21px;
+    overflow: hidden;
+    margin: 0;
+    color: #666;
+  }

@@ -1,0 +1,31 @@
+.details{
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    padding: 20px 20px 35px;
+    background: #fff;
+    background: #ffffff;
+    font-family: 'microsoft yahei';
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.article_manage {
+    color: #999;
+    font: 400 12px/22px Arial;
+    text-align: right;
+    margin: 0 -20px;
+    padding: 0 20px 5px;
+    overflow: hidden;
+    
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: 15px;
+    
+}

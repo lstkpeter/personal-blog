@@ -1,0 +1,125 @@
+.list{
+    background: #ffffff
+}
+.details, .list_item_new {
+  padding: 20px 20px 35px;
+  background: #fff;
+}
+
+.article_title {
+    margin-bottom: 21px;
+  }
+.article_title .ico {
+    display: inline-block;
+    vertical-align: middle;
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+  }
+.article_title h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+  }
+.article_title h1 a {
+    color: #000;
+    text-decoration: none;
+  }
+.contents .article_title h1 {
+    font-size: 12px;
+  }
+.list_item_new .list_item .article_title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+.list_item_new .list_item.list_view .article_title {
+    width: 760px;
+  }
+.list_item_new .list_item.list_view .article_title,
+.list_item_new .list_item.list_view {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+.list_item_new .list_item {
+    font: 14px/24px 'microsoft yahei';
+    margin: -10px 0 10px 0;
+    color: #666;
+  }
+
+
+.list_item_new .list_item {
+    border-bottom: 1px dashed #ddd;
+    margin: 0 10px;
+    padding: 20px 0 15px 0;
+    font-family: 'microsoft yahei';
+  }
+.list_item_new .list_item h1 {
+    font-weight: normal;
+  }
+.list_item_new .list_item.list_view {
+    padding: 10px 0;
+    position: relative;
+    height: 25px;
+  }
+.list_item_new .list_item.list_view{
+    top: 15px;
+    right: -20px;
+    width: 120px;
+    position: absolute;
+  }
+
+.pagelist {
+    margin: 20px auto;
+    text-align: center;
+    font: 12px/20px 'microsoft yahei';
+}
+.pagelist span {
+  color: #666;
+  margin-right: 10px;
+}
+.pagelist strong, .pagelist a:hover {
+  background: #07519a;
+  color: #fff;
+  padding: 2px 8px;
+  border: 1px solid #07519a;
+}
+.pagelist a {
+  border: solid 1px #dbe5ee;
+  color: #333;
+  text-decoration: none;
+  padding: 2px 8px;
+}
+
+ul li {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border: 1px solid #ccc;
+    width: 88px;
+    height: 26px;
+    margin-left: 10px;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    background: #fff;
+}
+
+ul li a {
+    color: #666;
+    text-decoration: none;
+    vertical-align: text-bottom;
+    margin-right: 6px;
+}
+
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}

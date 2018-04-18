@@ -1,0 +1,18 @@
+#side {
+    float: left;
+    margin-right: 12px;
+    width: 270px;
+    margin: 0 auto;
+    margin-right: -280px;
+  }
+  #main {
+    float: right;
+    width: 100%;
+    padding-left: 280px;
+    box-sizing:border-box;
+  }
+  #main .main{
+    width: 100%;
+    overflow: hidden;
+  }
+  

@@ -1,0 +1,35 @@
+<div id="article_details" class="details"  *ngIf="article">
+
+
+
+
+<ueditor [(ngModel)]="full_source" #full></ueditor>
+
+
+</div>
+
+
+<button (click)="getContent()">确认</button>
+
+
+
+<!--
+<div id="article_details" class="details"  *ngIf="article">
+    <div class="article_title">   
+         <span class=""></span>
+      <h1>
+        <span class="link_title"><a href="">{{article.title}}</a></span>
+      </h1>
+    </div>
+  
+    <div class="article_manage">
+      <div class="article_r">
+          <span class="link_postdate">{{article.data}} {{article.time}}</span>
+      </div>
+    </div>
+  
+    <div id="article_content" class="article_content" data-mod="popu_307" data-dsm="post">
+         <p> {{article.content}} </p>
+    </div>
+  </div>
+-->

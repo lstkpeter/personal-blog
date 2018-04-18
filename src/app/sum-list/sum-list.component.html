@@ -1,0 +1,53 @@
+<div class="list_item_new">
+
+  <div id="article_toplist" class="list">
+    
+  </div>
+
+  <div id="article_list" class="list" *ngFor="let article of articles">
+
+    <div class="list_item article_item">
+      <div class="article_title">
+        <span class="ico ico_type_Original"></span>
+
+
+        <h1>
+          <span class="link_title">
+            <a routerLink="/show-article/{{article.id}}">
+              {{article.title}}
+            </a>
+          </span>
+
+        </h1>
+      </div>
+
+      <div class="article_description">
+        {{article.summary}}... </div>
+      <div class="article_manage">
+        <span class="link_postdate">{{article.data}} {{article.time}}</span>
+
+
+        <span class="link_view" title="阅读次数">
+          <a routerLink="/show-article/{{article.id}}" title="阅读次数">阅读</a>({{article.numOfRead}})</span>
+        <span class="link_comments" title="评论次数">
+          <a routerLink="/show-article/{{article.id}}" title="评论次数" onclick="">评论</a>({{article.numOfComment}})</span>
+
+
+      </div>
+
+      <div class="clear"></div>
+    </div>
+    
+  </div>
+
+  <div id="papelist" class="pagelist">
+      <span> 69条  共4页</span><strong>1</strong> 
+      <a href="/ACdreamers/article/category/1159392/2">2</a> 
+      <a href="/ACdreamers/article/category/1159392/3">3</a> 
+      <a href="/ACdreamers/article/category/1159392/4">4</a> 
+      <a href="/ACdreamers/article/category/1159392/2">下一页</a> 
+      <a href="/ACdreamers/article/category/1159392/4">尾页</a> 
+  </div>
+
+
+</div>
